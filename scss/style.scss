@@ -3,6 +3,163 @@
 body {
     font-size:1.8rem;
     font-family: 'Rubik', sans-serif;
+    background:$background-body;
+    color:$color-text-selected;
+}
+
+.main {
+    max-width:32.7rem;
+    margin:8.1rem auto;
+}
+
+.profile {
+    background:$background-card;
+    margin-bottom:2.4rem;
+    border-radius:1.5rem;
+
+    &__figure {
+        display:flex;
+        align-items: center;
+        background:$background-profile;
+        border-radius:1.5rem;
+        padding:3.5rem 0;
+    }
+
+    &__picture {
+        width:64px;
+        border:4px solid white;
+        border-radius:50%;
+        margin: 0 2.4rem;
+    }
+
+    &__subtitle {
+        font-size:1.5rem;
+        color:$color-text-subtitle;
+        font-weight:400;
+    }
+
+    &__heading {
+        font-weight:300;
+        font-size:2.4rem;
+        margin-top:0.4rem;
+    }
+
+    &__period-switcher {
+        display:flex;
+        justify-content: space-between;
+        width:27.9rem;
+        margin:auto;
+        padding:2.4rem 0;
+    }
+
+    &__period-switcher-item {
+        width:33%;
+        text-align: center;
+        font-weight:400;
+        color:$color-text-not-selected;
+    }
+
+    &__period-switcher-item:hover {
+        color:white;
+        font-weight:400;
+    } 
+
+    &__period-switcher-item:first-child {
+        text-align: left;
+    }
+
+    &__period-switcher-item:last-child {
+        text-align: right;
+    }
+}
+
+.card {
+    background:$background-card;
+    margin-bottom:2.4rem;
+    border-radius:1.5rem;
+    height:16rem;
+    position:relative;
+
+    &__subcard {
+        background:$background-card;
+        position:absolute;
+        width:101%;
+        border-radius:1.5rem;
+        bottom:-1px;
+        left:-1px;
+    }
+
+    &__subcard:hover {
+        background: $background-card-hover ;
+        cursor: pointer;
+    }
+
+    &__row {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:0.8rem;
+    }
+
+    &__row:last-child {
+        margin-bottom:0;
+    }
+
+    &__content {
+        padding:2.8rem 2.4rem;
+    }
+
+    &__heading {
+        line-height: 2.133rem;
+        font-weight:500;
+        font-size:1.8rem;
+    }
+
+    &__duration-now {
+        font-size:3.2rem;
+        font-weight:300;
+        line-height:3.792rem;
+    }
+
+    &__duration-previous {
+        font-size:1.5rem;
+        font-weight:400;
+        color:$color-text-past-week;
+    }
+}
+
+.card-work {
+    background:url(../images/icon-work.svg) no-repeat top -10px right 15px;
+    background-color: $background-work;
+}
+
+.card-play {
+    background:url(../images/icon-play.svg) no-repeat top -10px right 15px;
+    background-color:$background-play;
+}
+
+.card-study {
+    background:url(../images/icon-study.svg) no-repeat top -10px right 15px;
+    background-color:$background-study;
+}
+
+.card-exercise {
+    background:url(../images/icon-exercise.svg) no-repeat top -10px right 15px;
+    background-color:$background-exercise;
+}
+
+.card-social {
+    background:url(../images/icon-social.svg) no-repeat top -10px right 15px;
+    background-color:$background-social;
+}
+
+.card-selfcare {
+    background:url(../images/icon-self-care.svg) no-repeat top -10px right 15px;
+    background-color:$background-selfcare;
+}
+
+.card:last-child {
+    margin-bottom:0;
 }
 
 .attribution { font-size: 11px; text-align: center; margin-top:2rem;}

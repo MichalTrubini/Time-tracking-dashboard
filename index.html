@@ -17,74 +17,102 @@
 
   <main class="main">
     <section class="profile">
-      <img src="images/image-jeremy.png" alt="profile photo" class="profile__picture">
-      <p class="profile__subtitle">Report for</p>
-      <h1 class="profile__heading">Jeremy Robson</h1>
-      <div class="period-switcher">
-        <p id="period-switcher__daily">Daily</p>
-        <p id="period-switcher__weekly">Weekly</p>
-        <p id="period-switcher__monthly">Monthly</p>
+      <figure class="profile__figure">
+        <img src="images/image-jeremy.png" alt="profile photo" class="profile__picture">
+        <figcaption>
+            <p class="profile__subtitle">Report for</p>
+            <h1 class="profile__heading">Jeremy Robson</h1>
+        </figcaption>
+      </figure>
+      <div class="profile__period-switcher">
+        <a href="#" class="profile__period-switcher-item" id="period-switcher__daily">Daily</a>
+        <a href="#" class="profile__period-switcher-item" id="period-switcher__weekly">Weekly</a>
+        <a href="#" class="profile__period-switcher-item" id="period-switcher__monthly">Monthly</a>
       </div>
     </section>
     <section class="card card-work">
-      <div class="card__row-primary">
-        <h2 class="card__heading">Work</h2>
-        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
-      </div>
-      <div class="card__row-secondary">
-        <p class="card__duration-now">32hrs</p>
-        <p class="card__duration-previous">Previous - 36hrs</p>
+      <div class="card__subcard">
+        <div class="card__content">
+          <div class="card__row">
+            <h2 class="card__heading">Work</h2>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+          </div>
+          <div class="card__row">
+            <p class="card__duration-now">32hrs</p>
+            <p class="card__duration-previous">Previous - 36hrs</p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="card card-play">
-      <div class="card__row-primary">
-        <h2 class="card__heading">Play</h2>
-        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
-      </div>
-      <div class="card__row-secondary">      
-        <p class="card__duration-now">10hrs</p>
-        <p class="card__duration-previous">Previous - 8hrs</p>
-      </div>
+      <div class="card__subcard">
+        <div class="card__content">
+          <div class="card__row">
+            <h2 class="card__heading">Play</h2>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+          </div>
+          <div class="card__row">      
+            <p class="card__duration-now">10hrs</p>
+            <p class="card__duration-previous">Previous - 8hrs</p>
+          </div>
+        </div>
+      </div>        
     </section>
     <section class="card card-study">
-      <div class="card__row-primary"></div>
-        <h2 class="card__heading">Study</h2>
-        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
-      </div>
-      <div class="card__row-secondary"> 
-        <p class="card__duration-now">4hrs</p>
-        <p class="card__duration-previous">Previous - 7hrs</p>
-      </div>
+      <div class="card__subcard">
+        <div class="card__content">
+          <div class="card__row">
+            <h2 class="card__heading">Study</h2>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+          </div>
+          <div class="card__row"> 
+            <p class="card__duration-now">4hrs</p>
+            <p class="card__duration-previous">Previous - 7hrs</p>
+          </div>
+        </div>
+      </div>  
     </section>
     <section class="card card-exercise">
-      <div class="card__row-primary"></div>    
-        <h2 class="card__heading">Exercise</h2>
-        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
-      </div>
-      <div class="card__row-secondary">     
-        <p class="card__duration-now">4hrs</p>
-        <p class="card__duration-previous">Previous - 5hrs</p>
-      </div>
+      <div class="card__subcard">
+        <div class="card__content">
+          <div class="card__row">   
+            <h2 class="card__heading">Exercise</h2>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+          </div>
+          <div class="card__row">     
+            <p class="card__duration-now">4hrs</p>
+            <p class="card__duration-previous">Previous - 5hrs</p>
+          </div>
+        </div>
+      </div>  
     </section>
     <section class="card card-social">
-      <div class="card__row-primary"></div>   
-        <h2 class="card__heading">Social</h2>
-        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
-      </div>
-      <div class="card__row-secondary">     
-        <p class="card__duration-now">5hrs</p>
-        <p class="card__duration-previous">Previous - 10hrs</p>
-      </div>   
+      <div class="card__subcard">
+        <div class="card__content">
+          <div class="card__row"> 
+            <h2 class="card__heading">Social</h2>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+          </div>
+          <div class="card__row">     
+            <p class="card__duration-now">5hrs</p>
+            <p class="card__duration-previous">Previous - 10hrs</p>
+          </div>
+        </div>
+      </div>    
     </section>
-    <section class="card card-sefcare">
-      <div class="card__row-primary"></div>  
-        <h2 class="card__heading">Self Care</h2>
-        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
-      </div>
-      <div class="card__row-secondary">      
-        <p class="card__duration-now">2hrs</p>
-        <p class="card__duration-previous">Previous - 2hrs</p>
-      </div>
+    <section class="card card-selfcare">
+      <div class="card__subcard">
+        <div class="card__content">
+          <div class="card__row">
+            <h2 class="card__heading">Self Care</h2>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+          </div>
+          <div class="card__row">      
+            <p class="card__duration-now">2hrs</p>
+            <p class="card__duration-previous">Previous - 2hrs</p>
+          </div>
+        </div>
+      </div>  
     </section>
   </main>
   <footer class="footer">
