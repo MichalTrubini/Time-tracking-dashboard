@@ -15,65 +15,83 @@
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="main">
+    <section class="profile">
+      <img src="images/image-jeremy.png" alt="profile photo" class="profile__picture">
+      <p class="profile__subtitle">Report for</p>
+      <h1 class="profile__heading">Jeremy Robson</h1>
+      <div class="period-switcher">
+        <p id="period-switcher__daily">Daily</p>
+        <p id="period-switcher__weekly">Weekly</p>
+        <p id="period-switcher__monthly">Monthly</p>
+      </div>
+    </section>
+    <section class="card card-work">
+      <div class="card__row-primary">
+        <h2 class="card__heading">Work</h2>
+        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+      </div>
+      <div class="card__row-secondary">
+        <p class="card__duration-now">32hrs</p>
+        <p class="card__duration-previous">Previous - 36hrs</p>
+      </div>
+    </section>
+    <section class="card card-play">
+      <div class="card__row-primary">
+        <h2 class="card__heading">Play</h2>
+        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+      </div>
+      <div class="card__row-secondary">      
+        <p class="card__duration-now">10hrs</p>
+        <p class="card__duration-previous">Previous - 8hrs</p>
+      </div>
+    </section>
+    <section class="card card-study">
+      <div class="card__row-primary"></div>
+        <h2 class="card__heading">Study</h2>
+        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+      </div>
+      <div class="card__row-secondary"> 
+        <p class="card__duration-now">4hrs</p>
+        <p class="card__duration-previous">Previous - 7hrs</p>
+      </div>
+    </section>
+    <section class="card card-exercise">
+      <div class="card__row-primary"></div>    
+        <h2 class="card__heading">Exercise</h2>
+        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+      </div>
+      <div class="card__row-secondary">     
+        <p class="card__duration-now">4hrs</p>
+        <p class="card__duration-previous">Previous - 5hrs</p>
+      </div>
+    </section>
+    <section class="card card-social">
+      <div class="card__row-primary"></div>   
+        <h2 class="card__heading">Social</h2>
+        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+      </div>
+      <div class="card__row-secondary">     
+        <p class="card__duration-now">5hrs</p>
+        <p class="card__duration-previous">Previous - 10hrs</p>
+      </div>   
+    </section>
+    <section class="card card-sefcare">
+      <div class="card__row-primary"></div>  
+        <h2 class="card__heading">Self Care</h2>
+        <img src="images/icon-ellipsis.svg" alt="ellipsis" class="ellipsis">
+      </div>
+      <div class="card__row-secondary">      
+        <p class="card__duration-now">2hrs</p>
+        <p class="card__duration-previous">Previous - 2hrs</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">MichalT</a>.
+    </div>
+  </footer>
 </body>
 </html>
